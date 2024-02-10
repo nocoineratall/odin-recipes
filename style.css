@@ -1,0 +1,15 @@
+.heading {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-size: 40px;
+  background-color: rgb(25, 56, 156);
+  color: orange;
+}
+
+.centered {
+  text-align: center;
+}
+
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-size: 50px;
+}
