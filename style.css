@@ -1,28 +1,32 @@
-html{
+html {
   /*box-sizing: border-box;*/
-  font-family: 'Trebuchet MS', sans-serif, sans-serif;
+  font-family: "Trebuchet MS", sans-serif, sans-serif;
 }
 
-body{
+body {
   background-color: rgb(51, 51, 255);
 }
 
-.heading{
+.heading {
   padding: 20px;
   background-color: gold;
   border-radius: 20px;
   border: 6px solid orange;
   margin: 30px;
+  margin-bottom: 50px;
 }
 
-.title{
+.title {
   font-size: 60px;
   color: rgb(0, 6, 125);
   text-align: center;
   margin: 0 0;
+  letter-spacing: 10px;
 }
 
-.recipe{
+.recipe {
+  margin-left: 200px;
+  margin-right: 200px;
   margin-bottom: 20px;
   background-color: rgb(248, 241, 156);
   font-size: 40px;
@@ -32,8 +36,18 @@ body{
   padding: 20px;
 }
 
-.recipe-list {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+.soon,
+.fav {
+  color: white;
+  text-align: center;
+}
+
+.medals {
+  width: 60px;
+}
+
+.footer,
+.ext-link {
+  color: white;
+  margin-top: 200px;
 }
