@@ -1,53 +1,108 @@
-html {
+html{
   /*box-sizing: border-box;*/
-  font-family: "Trebuchet MS", sans-serif, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(51, 51, 255);
+.heading-container, .footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  padding: 10px;
+  color: rgb(113, 29, 29);
 }
 
-.heading {
-  padding: 20px;
-  background-color: gold;
-  border-radius: 20px;
-  border: 6px solid orange;
-  margin: 30px;
-  margin-bottom: 50px;
+.title-container{
+  display: flex;
+  background-color: blanchedalmond;
+  padding: 10px;
+  padding-bottom: 0;
+  justify-content: space-around;
 }
 
-.title {
-  font-size: 60px;
-  color: rgb(0, 6, 125);
-  text-align: center;
-  margin: 0 0;
+.title-items{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 10px;
+  padding-bottom: 0;
+  color: rgb(100, 16, 16);
+}
+
+#item-story{
+  font-size: 15px;
+}
+
+.item-title{
   letter-spacing: 10px;
+  font-family: serif;
 }
 
-.recipe {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 20px;
-  background-color: rgb(248, 241, 156);
+.title-items div{
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.subtitle-container{
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+  color: rgb(100, 16, 16);
+  padding-bottom: 10px;
+  letter-spacing: 6px;
+}
+
+.body-container{
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  background-color: rgb(255, 221, 141);
+}
+
+.left-panel, .right-panel{
+  flex:1;
+}
+
+.content {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.content .recipe-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.content img{
+  width: 300px;
+  border: 2px dotted brown;
+}
+
+.content a {
   font-size: 40px;
-  text-align: center;
-  border-radius: 20px;
-  border: 4px dotted orange;
-  padding: 20px;
+  letter-sp
 }
 
-.soon,
-.fav {
-  color: white;
-  text-align: center;
+.footer div {
+  display: flex;
+
 }
 
-.medals {
-  width: 60px;
+.footer a {
+  margin-left: 5px;
 }
-
-.footer,
-.ext-link {
-  color: white;
-  margin-top: 200px;
+.footer img {
+  height: 20px;
+  margin-right: 10px;
 }
